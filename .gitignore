@@ -1,4 +1,10 @@
 node_modules
+hero/bin
+hero/bin/
+hero/include/
+hero/lib/
+hero/lib64/
+pyvenv.cfg
 *.log*
 .nuxt
 .nitro
