@@ -38,7 +38,7 @@
             <input type="password" value="123456" class="w-full text-slate-300 pl-3" />
           </div>
         </div>
-        <div class="foot">
+        <div class="foot border border-1">
           <button>Create Account</button>
           <button><NuxtLink to="/">I have an Account</NuxtLink></button>
         </div>

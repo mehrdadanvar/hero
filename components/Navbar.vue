@@ -19,7 +19,7 @@
       <div>
         <NuxtLink to="/Colleges">Potential Colleges</NuxtLink>
       </div>
-      <div></div>
+      <div><NuxtLink to="/Student">Student</NuxtLink></div>
       <div></div>
     </nav>
   </div>
