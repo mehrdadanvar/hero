@@ -4,6 +4,7 @@ hero/bin/
 hero/include/
 hero/lib/
 hero/lib64/
+hero/share/
 pyvenv.cfg
 *.log*
 .nuxt
