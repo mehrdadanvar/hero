@@ -1,9 +1,10 @@
 from fastapi import FastAPI
-
 from fastapi.middleware.cors import CORSMiddleware
-
+from db import database
+from api.students import router
+from api.coordinators import router
 app = FastAPI()
-
+app.include_router(router)
 origins = ["*"]
 
 app.add_middleware(
@@ -14,11 +15,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+
 @app.get("/")
 async def root():
+    print(database)
     return {"message": "hi app is up and running"}
-
-
-@app.get("/students")
-async def get_students():
-    return {"students": ["mehrdad","John", "Lucy"]}
